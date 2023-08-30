@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="LAPTOP-J8DMK75K" name="Product2Test" skipped="0" tests="4" time="0.126" timestamp="2020-11-26T15:30:15">
+  <properties>
+    <property name="sun.desktop" value="windows" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.library.dir" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="ant.project.name" value="ant and junit" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.class.path" value="C:\project\shiyan_JUnitTest\lib\junit-4.10.jar;C:\project\shiyan_JUnitTest\classes;D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib\ant-launcher.jar;D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib\ant.jar;D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib\ant-junit.jar;D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="JetBrains s.r.o" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://www.jetbrains.com/" />
+    <property name="user.timezone" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="src folder" value="src" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="CN" />
+    <property name="sun.boot.library.path" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\jbr\bin" />
+    <property name="report folder" value="report" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Product2Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\project\shiyan_JUnitTest\report\TEST-Product2Test.xml crashfile=C:\project\shiyan_JUnitTest\junitvmwatcher4706289546418479877.properties propsfile=C:\project\shiyan_JUnitTest\junit2815413369140504407.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\莫小殇" />
+    <property name="user.language" value="zh" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2019-07-16" />
+    <property name="java.home" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\jbr" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\project\shiyan_JUnitTest" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="test folder" value="test" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.4+10-b304.77" />
+    <property name="ant.file.ant and junit" value="C:\project\shiyan_JUnitTest\build.xml" />
+    <property name="user.name" value="莫小殇" />
+    <property name="ant.file" value="C:\project\shiyan_JUnitTest\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="GBK" />
+    <property name="ant.project.invoked-targets" value="test auto junit and report" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="output folder" value="classes" />
+    <property name="ant.core.lib" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com" />
+    <property name="java.io.tmpdir" value="C:\Users\莫小殇\AppData\Local\Temp\" />
+    <property name="java.version" value="11.0.4" />
+    <property name="user.dir" value="C:\project\shiyan_JUnitTest" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.home" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\lib\ant" />
+    <property name="ant.file.type.ant and junit" value="file" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="D:\IntelliJ IDEA\IntelliJ IDEA 2019.2.2\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Python3.8\Scripts\;C:\Python3.8\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Matlab\runtime\win64;D:\Matlab\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\JAVA\bin;D:\tomcat\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Quickapp\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\nodejs\;C:\Qt\Qt5.8.0\5.8\mingw53_32\bin;C:\Program Files (x86)\Git\cmd;D:\Latex\texlive\2020\bin\win32;D:\apache-ant-1.10.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\莫小殇\AppData\Local\Programs\Microsoft VS Code\bin;D:\altera\modelsim_ase\win32aloem;C:\Users\莫小殇\AppData\Roaming\npm;." />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vendor" value="JetBrains s.r.o" />
+    <property name="java.vm.version" value="11.0.4+10-b304.77" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="55.0" />
+    <property name="ant.project.default-target" value="test auto junit and report" />
+  </properties>
+  <testcase classname="Product2Test" name="testGetProductId" time="0.004" />
+  <testcase classname="Product2Test" name="testGetPrice" time="0.0" />
+  <testcase classname="Product2Test" name="testGetDescription" time="0.0" />
+  <testcase classname="Product2Test" name="testGetName" time="0.001" />
+  <system-out><![CDATA[productId : 2
+price : 5 yuan
+description : It is sweet
+name : Chotolate
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

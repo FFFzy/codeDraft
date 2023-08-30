@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<project name="ant and junit" default="test auto junit and report" basedir=".">
+
+    <property name="lib.dir" value="lib"/>
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <property name="output folder" value="classes"/>
+    <property name="src folder" value="src"/>
+    <property name="test folder" value="test"/>
+    <property name="report folder" value="report"/>
+
+    <target name="clean">
+        <delete dir="report"/>
+    </target>
+
+    <target name="compile init">
+        <mkdir dir="${output folder}"/>
+    </target>
+
+    <target name="report init" depends="clean">
+        <mkdir dir="${report folder}"/>
+    </target>
+
+    <target name="compile" depends="compile init">
+        <javac srcdir="${src folder}" destdir="${output folder}" classpathref="classpath"/>
+    </target>
+
+    <target name="test compile" depends="report init">
+        <javac srcdir="${test folder}" destdir="${output folder}" classpathref="classpath"/>
+    </target>
+
+    <target name="all compile" depends="compile, test compile">
+    </target>
+
+    <target name="test auto junit and report" depends="all compile">
+        <junit printsummary="on" fork="true" showoutput="true">
+            <classpath>
+                <fileset dir="${lib.dir}" includes="**/*.jar"/>
+                <pathelement path="${output folder}"/>
+            </classpath>
+            <formatter type="xml"/>
+            <batchtest todir="${report folder}">
+                <fileset dir="${output folder}">
+                    <include name="**/*Test.*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+        <junitreport todir="${report folder}">
+            <fileset dir="${report folder}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${report folder}"/>
+        </junitreport>
+    </target>
+
+</project>

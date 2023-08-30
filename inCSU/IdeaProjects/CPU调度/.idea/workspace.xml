@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9ccf5a8-3f98-4da1-b8ae-4564501e25b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SVTTgrCuMkrmsIdv37L9A4Tanb" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CPU调度" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SingleCPUSchedulingGUI03" />
+      <module name="CPU调度" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9ccf5a8-3f98-4da1-b8ae-4564501e25b7" name="Default Changelist" comment="" />
+      <created>1571647773125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571647773125</updated>
+      <workItem from="1571647777006" duration="872000" />
+      <workItem from="1571652078587" duration="283000" />
+      <workItem from="1571665647054" duration="2928000" />
+      <workItem from="1571744091717" duration="4470000" />
+      <workItem from="1571810309467" duration="1904000" />
+      <workItem from="1571823775374" duration="59000" />
+      <workItem from="1573475204559" duration="2538000" />
+      <workItem from="1573480141203" duration="100000" />
+      <workItem from="1573567648792" duration="2504000" />
+      <workItem from="1573620151474" duration="509000" />
+      <workItem from="1573620777585" duration="33000" />
+      <workItem from="1573624490413" duration="3365000" />
+      <workItem from="1574169618109" duration="736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

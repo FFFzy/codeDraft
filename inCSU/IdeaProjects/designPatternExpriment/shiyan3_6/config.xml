@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config>
+    <className>SetLightCommand</className>
+    <className>LightOnCommand</className>
+    <className>LightOffCommand</className>
+</config>

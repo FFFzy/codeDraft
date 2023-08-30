@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hadoop-jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/云计算及应用2020/hadoop-jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/云计算及应用2020/hadoop-jar" recursive="false" />
+  </library>
+</component>
